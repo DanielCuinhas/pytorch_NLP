@@ -23,8 +23,6 @@ The repository is organized by NLP task areas. Below is a detailed breakdown of 
 *   **Names Generator (`Names_generator/`)** *(Character-level generation)*:
     *   `1_RNN_manual.ipynb`: Core Recurrent Neural Network built manually.
     *   `2_GRU.ipynb`: Gated Recurrent Unit (GRU) generator.
-    *   `3_GRU_batch.ipynb`: Batched GRU language model.
-    *   `4_GRU_batch_bptt.ipynb`: Batched GRU with Backpropagation Through Time (BPTT).
 *   **WikiText2 (`WikiText2/`)** *(Word-level language modeling & Transformers)*:
     *   `1_GRU.ipynb`: GRU-based language model.
     *   `2_Transformer_from_scratch.ipynb`: Full Transformer encoder-decoder built from scratch.
@@ -45,7 +43,7 @@ The repository is organized by NLP task areas. Below is a detailed breakdown of 
 ### 5. 🌐 Sequence-to-Sequence Translation (`Translation/`)
 *Machine translation of text between different languages.*
 *   **`1_LSTM.ipynb`**: Classic Encoder-Decoder LSTM framework.
-*   **`2_LSTM_Bahdanau1.ipynb`** / **`3_LSTM_Bahdanau2.ipynb`**: Encoder-Decoder models with customized Bahdanau attention.
+*   **`2_LSTM_Bahdanau1.ipynb`** Encoder-Decoder models with customized Bahdanau attention.
 *   **`4_Transformer.ipynb`**: Full Transformer sequence-to-sequence model for machine translation.
 
 ---
