@@ -25,16 +25,12 @@ The repository is organized by NLP task areas. Below is a detailed breakdown of 
     *   `2_GRU.ipynb`: Gated Recurrent Unit (GRU) generator.
     *   `3_GRU_batch.ipynb`: Batched GRU language model.
     *   `4_GRU_batch_bptt.ipynb`: Batched GRU with Backpropagation Through Time (BPTT).
-*   **Shakespeare (`Shakespeare/`)** *(Character-level sequence modeling)*:
-    *   `1_GRU_random_sample_batch_size=1.ipynb` / `2_GRU_random_sample_with_batchsize.ipynb` / `3_GRU_all_batches.ipynb`
-*   **TV Script (`Tv_script/`)** *(Token-level dialogue script generation)*:
-    *   `1_GRU_token.ipynb` / `2_GRU_bptt.ipynb`
 *   **WikiText2 (`WikiText2/`)** *(Word-level language modeling & Transformers)*:
     *   `1_GRU.ipynb`: GRU-based language model.
     *   `2_Transformer_from_scratch.ipynb`: Full Transformer encoder-decoder built from scratch.
     *   `3_Transformer_from_scratch_position_encoding.ipynb`: From-scratch Transformer with custom positional encodings.
     *   `4_Transformer_module.ipynb`: Native PyTorch `nn.Transformer` implementation.
-    *   `5_GPT2.ipynb` & `6_GPT2_masked_LM.ipynb`: Causal and Masked Language Modeling utilizing the GPT-2 architecture.
+    *   `5_GPT2.ipynb`: Causal Language Modeling utilizing the GPT-2 architecture.
 
 ### 3. ⚖️ Natural Language Inference (`NLI/`)
 *Determining whether a hypothesis is true (entailment), false (contradiction), or neutral given a premise.*
@@ -46,16 +42,11 @@ The repository is organized by NLP task areas. Below is a detailed breakdown of 
 *Locating and classifying named entities (people, organizations, locations, etc.) in unstructured text.*
 *   **`NER_BERT.ipynb`**: Named Entity Recognition leveraging contextual BERT embeddings.
 
-### 5. 🌐 Sequence-to-Sequence Translation (`seq2seq/`)
+### 5. 🌐 Sequence-to-Sequence Translation (`Translation/`)
 *Machine translation of text between different languages.*
-*   **`seq2seq/Translation/`**:
-    *   `1_LSTM.ipynb`: Classic Encoder-Decoder LSTM framework.
-    *   `2_LSTM_Bahdanau1.ipynb` / `3_LSTM_Bahdanau2.ipynb`: Encoder-Decoder models with customized Bahdanau attention.
-    *   `4_Transformer.ipynb`: Full Transformer sequence-to-sequence model for machine translation.
-
-### 6. 🧮 Word Embeddings (`Word2vec/`)
-*Learning vector representations of words based on context.*
-*   **`Skip_Gram.ipynb`**: Skip-Gram Word2Vec implementation with negative sampling.
+*   **`1_LSTM.ipynb`**: Classic Encoder-Decoder LSTM framework.
+*   **`2_LSTM_Bahdanau1.ipynb`** / **`3_LSTM_Bahdanau2.ipynb`**: Encoder-Decoder models with customized Bahdanau attention.
+*   **`4_Transformer.ipynb`**: Full Transformer sequence-to-sequence model for machine translation.
 
 ---
 
